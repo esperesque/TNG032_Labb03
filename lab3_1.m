@@ -1,3 +1,5 @@
+% Uppgifter 1-9
+
 % Toolboxar som behövs:
 % Symbolic Math toolbox
 % Signal Processing toolbox
@@ -38,4 +40,16 @@ x2inv = dimpulse(num2, den2, 20)
 % Ger en talsekvens [0.5 -0.25 0.125 -0.0625 0.03125]
 % Varje tal n+1 är n*-0.5
 
-stem(x2inv)
+stem(x2inv);
+
+% Uppgift 8
+
+X2 = (1 - z^(-1)) / (2 - z^(-1) - z^(-2));
+
+iztrans(X2);
+
+% Resultat: (-1/2)^n/2
+
+% Uppgift 9
+
+% Resultat: z/(2z+1)
